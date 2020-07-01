@@ -1,13 +1,13 @@
 # Ghostscript compilation
-# 8-3-2019
+# 1-7-2020
 # Alvaro Bustos
 # Installation Path: /usr/bin
 
-wget https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/ghostscript-9.27.tar.gz
+wget https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs952/ghostscript-9.52.tar.gz
 
-tar -xvf ghostscript-9.27.tar.gz
+tar -xvf ghostscript-9.52.tar.gz
 
-cd ghostscript-9.27
+cd ghostscript-9.52
 
 ./configure --prefix=/usr
 
